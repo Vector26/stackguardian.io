@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    width: fit-content;
+    border-radius: 0.5em;
+    min-width: 10em;
+    max-width: 21em;
+    text-align: left;
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    /* padding-left: 2em; */
+}
+
+.card > img {
+    border-radius: 0.5em 0.5em 0em 0em;
+    height: 13em;
+    /* margin-bottom: 2em; */
+}
+.card:hover .Button { display: block; }
+
+.content{
+    color: black;
+    padding: 1em 3em;
+}
+.content > *{
+    margin:0.1em;
+}
+
+.Button{
+    display: none;
+    border-radius: 0.5em;
+    background-color: rgb(119, 255, 255);
+    border: none;
+}
+.Button:hover{
+    border: none;
+}
+
+
+.banner{
+    position: absolute;
+    top:100vh;
+    left:calc(50vw - 10em);
+}
+
